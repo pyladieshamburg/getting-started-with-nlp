@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "getting-started-with-nlp"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.5"
+numpy = "^1.19.0"
+nltk = "^3.5"
+scikit-learn = "^0.23.1"
+jupyterlab = "^2.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
